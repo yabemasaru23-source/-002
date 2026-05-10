@@ -89,8 +89,8 @@ function Empathy() {
 
         <Reveal delay={120}>
           <ImageBand
-            src={CLOCK_IMAGES.towerClock}
-            lat="PRESENT"
+            src={CLOCK_IMAGES.antiqueClock}
+            lat="TIME"
             ja="変わる瞬間を、視覚で感じる"
           />
         </Reveal>
