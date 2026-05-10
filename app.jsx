@@ -58,6 +58,53 @@ function ImageBand({ src, lat, ja, height }){
 }
 
 const CLOCK_IMAGES = {
+  iconGrid: `data:image/svg+xml;charset=UTF-8,${encodeURIComponent(`
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 420">
+  <rect width="1200" height="420" fill="#f5f0e5" />
+  <g fill="none" stroke="#141414" stroke-width="16">
+    <circle cx="120" cy="110" r="80" />
+    <circle cx="360" cy="110" r="80" />
+    <circle cx="600" cy="110" r="80" />
+    <circle cx="840" cy="110" r="80" />
+    <circle cx="1080" cy="110" r="80" />
+    <circle cx="120" cy="310" r="80" />
+    <circle cx="360" cy="310" r="80" />
+    <circle cx="600" cy="310" r="80" />
+    <circle cx="840" cy="310" r="80" />
+    <circle cx="1080" cy="310" r="80" />
+  </g>
+  <g stroke="#141414" stroke-width="12" stroke-linecap="round">
+    <line x1="120" y1="110" x2="120" y2="58" />
+    <line x1="120" y1="110" x2="170" y2="110" />
+    <line x1="360" y1="110" x2="360" y2="68" />
+    <line x1="360" y1="110" x2="410" y2="110" />
+    <line x1="600" y1="110" x2="600" y2="80" />
+    <line x1="600" y1="110" x2="650" y2="110" />
+    <line x1="840" y1="110" x2="840" y2="88" />
+    <line x1="840" y1="110" x2="890" y2="110" />
+    <line x1="1080" y1="110" x2="1080" y2="90" />
+    <line x1="1080" y1="110" x2="1115" y2="110" />
+    <line x1="120" y1="310" x2="120" y2="270" />
+    <line x1="120" y1="310" x2="130" y2="310" />
+    <line x1="360" y1="310" x2="360" y2="250" />
+    <line x1="360" y1="310" x2="420" y2="310" />
+    <line x1="600" y1="310" x2="600" y2="260" />
+    <line x1="600" y1="310" x2="650" y2="310" />
+    <line x1="840" y1="310" x2="840" y2="280" />
+    <line x1="840" y1="310" x2="900" y2="310" />
+    <line x1="1080" y1="310" x2="1080" y2="280" />
+    <line x1="1080" y1="310" x2="1110" y2="310" />
+  </g>
+  <g stroke="#141414" stroke-width="10" stroke-linecap="round">
+    <line x1="600" y1="110" x2="620" y2="125" />
+    <line x1="840" y1="110" x2="860" y2="95" />
+    <line x1="1080" y1="110" x2="1065" y2="130" />
+    <line x1="360" y1="310" x2="380" y2="300" />
+    <line x1="120" y1="310" x2="140" y2="340" />
+    <line x1="1080" y1="310" x2="1060" y2="290" />
+  </g>
+</svg>
+`)}`,
   pocketWatch: "https://images.unsplash.com/photo-1509048191080-d2984bad6ae5?w=1800&q=80&auto=format&fit=crop",
   towerClock: "https://images.unsplash.com/photo-1606166187734-a4cb74079037?w=1800&q=80&auto=format&fit=crop",
   antiqueClock: "https://images.unsplash.com/photo-1495364141860-b0d03eccd065?w=1800&q=80&auto=format&fit=crop",

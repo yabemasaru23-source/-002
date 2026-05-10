@@ -89,9 +89,9 @@ function Empathy() {
 
         <Reveal delay={120}>
           <ImageBand
-            src={CLOCK_IMAGES.antiqueClock}
-            lat="TIME"
-            ja="変わる瞬間を、視覚で感じる"
+            src={CLOCK_IMAGES.iconGrid}
+            lat="CLOCKS"
+            ja="針と時間のリズムを、視覚で感じる"
           />
         </Reveal>
       </div>
@@ -140,7 +140,7 @@ function Pillars() {
         <Reveal delay={120}>
           <ClockImagePair
             a={{ src: CLOCK_IMAGES.pocketWatch, ja: "今この瞬間を刻む" }}
-            b={{ src: CLOCK_IMAGES.antiqueClock, ja: "歴史の針を感じる" }}
+            b={{ src: CLOCK_IMAGES.towerClock, ja: "時間の構造を感じる" }}
           />
         </Reveal>
 
